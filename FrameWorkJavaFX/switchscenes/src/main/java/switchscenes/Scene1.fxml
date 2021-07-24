@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="switchscenes.SceneController">
+   <children>
+      <Text layoutX="223.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cena 1" textAlignment="CENTER" wrappingWidth="167.75439453125" />
+      <Button layoutX="276.0" layoutY="277.0" mnemonicParsing="false" onAction="#switchScene2" text="Button" />
+   </children>
+</AnchorPane>
