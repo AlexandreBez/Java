@@ -1,0 +1,138 @@
+PS C:\Users\lucas\Desktop\Java\JavaFX\Curso_AdvancedJavaFX\advanced.main>  & 'C:\Program Files\Java\jdk-17.0.1\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '@C:\Users\lucas\AppData\Local\Temp\cp_9iclmbvymcapfpxq43bsbt42g.argfile' '-m' 'javafxadvanced.advanced.main/javafxadvanced.advanced.main.App'
+App version: 1.0.0
+Java Version:17.0.1
+Exception in Application start method
+java.lang.reflect.InvocationTargetException
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:465)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:364)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:1071)
+Caused by: java.lang.RuntimeException: Exception in Application start method
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:901)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:196)
+        at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Location is not set.
+        at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2541)
+        at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.config.ViewManager.showLoginWindow(ViewManager.java:33)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.App.start(App.java:15)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:847)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:484)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+        at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+        at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+        at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+        at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+        ... 1 more
+Exception running application javafxadvanced.advanced.main.App
+PS C:\Users\lucas\Desktop\Java\JavaFX\Curso_AdvancedJavaFX\advanced.main>  c:; cd 'c:\Users\lucas\Desktop\Java\JavaFX\Curso_AdvancedJavaFX\advanced.main'; & 'C:\Program Files\Java\jdk-17.0.1\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '@C:\Users\lucas\AppData\Local\Temp\cp_9iclmbvymcapfpxq43bsbt42g.argfile' '-m' 'javafxadvanced.advanced.main/javafxadvanced.advanced.main.App'
+App version: 1.0.0
+Java Version:17.0.1
+Exception in Application start method
+java.lang.reflect.InvocationTargetException
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:465)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:364)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:1071)
+Caused by: java.lang.RuntimeException: Exception in Application start method
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:901)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:196)
+        at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Location is not set.
+        at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2541)
+        at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.config.ViewManager.showLoginWindow(ViewManager.java:33)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.App.start(App.java:15)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:847)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:484)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+        at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+        at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+        at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+        at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+        ... 1 more
+Exception running application javafxadvanced.advanced.main.App
+PS C:\Users\lucas\Desktop\Java\JavaFX\Curso_AdvancedJavaFX\advanced.main>  c:; cd 'c:\Users\lucas\Desktop\Java\JavaFX\Curso_AdvancedJavaFX\advanced.main'; & 'C:\Program Files\Java\jdk-17.0.1\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '@C:\Users\lucas\AppData\Local\Temp\cp_9iclmbvymcapfpxq43bsbt42g.argfile' '-m' 'javafxadvanced.advanced.main/javafxadvanced.advanced.main.App'
+Actual Screen: Main Hub
+App version: 1.0.0
+Java Version:17.0.1
+Exception in Application start method
+java.lang.reflect.InvocationTargetException
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:465)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:364)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:1071)
+Caused by: java.lang.RuntimeException: Exception in Application start method
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:901)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:196)
+        at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Location is not set.
+        at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2541)
+        at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.config.ViewManager.initializeStage(ViewManager.java:45)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.config.ViewManager.showMainHub(ViewManager.java:31)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.App.start(App.java:15)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:847)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:484)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+PS C:\Users\lucas\Desktop\Java\JavaFX\Curso_AdvancedJavaFX\advanced.main>  c:; cd 'c:\Users\lucas\Desktop\Java\JavaFX\Curso_AdvancedJavaFX\advanced.main'; & 'C:\Program Files\Java\jdk-17.0.1\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '@C:\Users\lucas\AppData\Local\Temp\cp_9iclmbvymcapfpxq43bsbt42g.argfile' '-m' 'javafxadvanced.advanced.main/javafxadvanced.advanced.main.App'
+Actual Screen: Main Hub
+App version: 1.0.0
+Java Version:17.0.1
+Exception in Application start method
+java.lang.reflect.InvocationTargetException
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:465)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:364)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:1071)
+Caused by: java.lang.RuntimeException: Exception in Application start method
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:901)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:196)
+        at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Location is not set.
+        at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2541)
+        at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.config.ViewManager.initializeStage(ViewManager.java:45)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.config.ViewManager.showMainHub(ViewManager.java:31)
+        at javafxadvanced.advanced.main/javafxadvanced.advanced.main.App.start(App.java:15)
+        at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:847)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:484)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+        at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+        at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+        at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+        at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+        at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+        ... 1 more
+Exception running application javafxadvanced.advanced.main.App
+PS C:\Users\lucas\Desktop\Java\JavaFX\Curso_AdvancedJavaFX\advanced.main>
