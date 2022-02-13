@@ -11,8 +11,15 @@ public class ServerThread extends Thread {
         int clientNumber = 1;
 
         while(clientNumber != 100){
-            System.out.println(this.getName() + " sent data to client" + clientNumber);
-            clientNumber++;
+           
+            try {
+                System.out.println(this.getName() + " sent data to client " + clientNumber);
+                Thread.sleep(1000);
+                clientNumber++;
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            
         }
         
     }
