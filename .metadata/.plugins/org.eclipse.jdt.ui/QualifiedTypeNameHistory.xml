@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="main.main"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentLinkedDeque"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ThreadFactory"/>
+    <fullyQualifiedTypeName name="javax.xml.stream.events.StartDocument"/>
+    <fullyQualifiedTypeName name="java.lang.Thread.State"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="main.MyRunnable"/>
+    <fullyQualifiedTypeName name="main.DownloadManager"/>
+    <fullyQualifiedTypeName name="Entity.Donwload"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,89 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
+import Entity.Download;
+
+public class DownloadManager {
+
+	private List<Download> downloads = new ArrayList<>();
+	private ExecutorService executorService;
+
+	public DownloadManager(int maxConcurrentDownloads) {
+		executorService = Executors.newFixedThreadPool(maxConcurrentDownloads);
+	}
+
+	public void adicionarDownload(Download download) {
+		downloads.add(download);
+	}
+
+	public void iniciarDownloads() {
+
+		Random random = new Random();
+
+		for (Download download : downloads) {
+			executorService.submit(() -> {
+				try {
+					
+					int progress = 0;
+					while (progress < 100) {
+						Thread.sleep(random.nextLong(100, 600));
+						Thread.currentThread().setName(download.getName());
+						progress++; // Increment progress by 1%
+						System.out.println("Downloading " + download.getName() + " Progress: " + progress + "%");
+					}
+					    
+					System.out.println("Download concluído: " + download.getName());
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			});
+		}
+		
+		// Imprime o status das threads enquanto estão em execução
+		for (Thread thread : Thread.getAllStackTraces().keySet()) {
+		    String threadName = thread.getName();
+		    if (!threadName.equals("Finalizer") &&
+		        !threadName.equals("Reference Handler") &&
+		        !threadName.equals("Notification Thread") &&
+		        !threadName.equals("Attach Listener") &&
+		        !threadName.equals("main") &&
+		        !threadName.equals("Signal Dispatcher") &&
+		        !threadName.equals("Common-Cleaner")) {
+		        System.out.println("Thread " + threadName + " Status: " + thread.getState());
+		    }
+		}
+
+	}
+
+	public void esperarDownloadsConcluirem() {
+		executorService.shutdown();
+		try {
+			executorService.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+
+		// Número máximo de downloads simultâneos
+		DownloadManager manager = new DownloadManager(3);
+		manager.adicionarDownload(new Download(1, "image.gif"));
+		manager.adicionarDownload(new Download(2, "myMusic.mp3"));
+		manager.adicionarDownload(new Download(3, "programa.exe"));
+		manager.adicionarDownload(new Download(4, "programa2.exe"));
+		manager.adicionarDownload(new Download(5, "image_cats.jpeg"));
+		manager.adicionarDownload(new Download(6, "HelloMotoMusic.mp3"));
+
+		manager.iniciarDownloads();
+		manager.esperarDownloadsConcluirem();
+		System.out.println("Todos os downloads foram concluídos.");
+	}
+
+}

@@ -1,0 +1,19 @@
+package Entity;
+
+public class Donwload {
+
+	private int id;
+	private String name;
+	private String status;
+	
+	public Donwload() {}
+	
+	public Donwload(int id, String name, String status) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.status = status;
+	}
+	
+	
+}
